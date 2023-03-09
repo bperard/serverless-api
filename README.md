@@ -1,10 +1,35 @@
-# serverless-api
+# 418: Serverless API
 
-Provide a UML diagram showcasing the architecture of your API.
+![AWS Serverless API UML](./lab418.png)
 
-Document the data and program flow for your API, including the mapping of Routes and Functions, as well as the flow of data.
+## What is the root URL to your API?
+<!-- Insert Deployed -->
 
-What is the root URL to your API?
-What are the routes?
-What inputs do they require?
-What output do they return?
+## What are the routes?
+
+**/people**
+read all, create
+
+**/people/:id**
+read one, update, delete
+
+## What inputs do they require?
+
+req.body for create and update routes
+
+## What output do they return?
+
+**get all**
+all people table documents
+
+**get one**
+selected people table document
+
+**create**
+created people table row
+
+**update**
+updated people table row
+
+**delete**
+row deletion confirmation
